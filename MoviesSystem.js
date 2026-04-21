@@ -20,7 +20,7 @@ const collectionName = "moviesCollection";
 const uri = process.env.MONGO_CONNECTION_STRING;
 const client = new MongoClient(uri, { serverApi: ServerApiVersion.v1 });
 
-app.get("/", async (req, res) => {sudo xcode-select --reset
+app.get("/", async (req, res) => {
    res.send(`My Deployment`);
 });
 
